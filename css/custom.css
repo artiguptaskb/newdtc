@@ -1,0 +1,26 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+
+.dropdown{
+    display: none;
+
+}
+.drop-main{
+    position: relative;
+}
+
+.drop-main:hover .dropdown{
+    display: flex;
+    position: absolute;
+    flex-direction: column;     
+    margin-top: 5px;
+    /* background: hotpink; */
+    background: white;
+    width: 20rem;
+}
+
+.drop-main:hover .dropdown a{
+    background: white;
+    color: black;
+}
